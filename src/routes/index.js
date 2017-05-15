@@ -21,6 +21,7 @@ export default {
     require('./login').default,
     require('./register').default,
     require('./about').default,
+    require('./filmSchools').default,
     require('./privacy').default,
     require('./admin').default,
 
@@ -33,7 +34,7 @@ export default {
     const route = await next();
 
     // Provide default values for title, description etc.
-    route.title = `${route.title || 'Untitled Page'} - www.reactstarterkit.com`;
+    route.title = `${route.title || 'Untitled Page'} - www.cineindustria.com`;
     route.description = route.description || '';
 
     return route;
