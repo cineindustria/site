@@ -9,6 +9,7 @@ import {
 //import FaSpinner from "react-icons/lib/fa/spinner";
 
 import withScriptjs from "react-google-maps/lib/async/withScriptjs";
+import mapStyles from "./mapStyles.json";
 
 import {
   withGoogleMap,
@@ -29,8 +30,9 @@ const FilmSchoolsMap = _.flowRight(
   <GoogleMap
     ref={props.onMapLoad}
     defaultZoom={3}
-    defaultCenter={{ lat: -25.363882, lng: 131.044922 }}
+    defaultCenter={{ lat: 5.5841675, lng: -0.1657877 }}
     onClick={props.onMapClick}
+    defaultOptions={{ styles: mapStyles }}
   >
     {props.markers.map(marker => (
       <Marker
@@ -50,17 +52,16 @@ export default class AsyncGettingStartedExample extends Component {
   state = {
     markers: [{
       position: {
-        lat: 25.0112183,
-        lng: 121.52067570000001,
+        lat: 5.5841675,
+        lng: -0.1657877,
       },
-      key: `Taiwan`,
+      key: `National Film And Television Institute, Ghana`,
       defaultAnimation: 2,
     }],
   }
 
   handleMapLoad = this.handleMapLoad.bind(this);
   handleMapClick = this.handleMapClick.bind(this);
-  handleMarkerRightClick = this.handleMarkerRightClick.bind(this);
 
   handleMapLoad(map) {
     this._mapComponent = map;
@@ -94,22 +95,10 @@ export default class AsyncGettingStartedExample extends Component {
     }
   }
 
-  handleMarkerRightClick(targetMarker) {
-    /*
-     * All you modify is data, and the view is driven by data.
-     * This is so called data-driven-development. (And yes, it's now in
-     * web front end and even with google maps API.)
-     */
-    const nextMarkers = this.state.markers.filter(marker => marker !== targetMarker);
-    this.setState({
-      markers: nextMarkers,
-    });
-  }
-
   render() {
     return (
       <FilmSchoolsMap
-        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=AIzaSyByxCYpX-iTbEAjYQqwzUN23zyQNXZVsko"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyByxCYpX-iTbEAjYQqwzUN23zyQNXZVsko"
         loadingElement={
           <div style={{ height: `500px`, width: `500px` }}>
 
@@ -124,7 +113,6 @@ export default class AsyncGettingStartedExample extends Component {
         onMapLoad={this.handleMapLoad}
         onMapClick={this.handleMapClick}
         markers={this.state.markers}
-        onMarkerRightClick={this.handleMarkerRightClick}
       />
     );
   }
