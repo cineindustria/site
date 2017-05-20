@@ -1,15 +1,10 @@
 import _ from "lodash";
+import fetch from "isomorphic-fetch";
 
 import {
   default as React,
   Component,
-  PropTypes,
 } from "react";
-
-//import FaSpinner from "react-icons/lib/fa/spinner";
-
-import withScriptjs from "react-google-maps/lib/async/withScriptjs";
-import mapStyles from "./mapStyles.json";
 
 import {
   withGoogleMap,
@@ -17,82 +12,55 @@ import {
   Marker,
 } from "react-google-maps";
 
-/*
- * This is the modify version of:
- * https://developers.google.com/maps/documentation/javascript/examples/event-arguments
- *
- * Loaded using async loader.
- */
+import withScriptjs from "react-google-maps/lib/async/withScriptjs";
+import MarkerClusterer from "react-google-maps/lib/addons/MarkerClusterer";
+import dataSetSchools from "./dataSetSchools.json";
+import mapStyles from "./mapStyles.json";
+
 const FilmSchoolsMap = _.flowRight(
   withScriptjs,
   withGoogleMap,
 )(props => (
   <GoogleMap
-    ref={props.onMapLoad}
-    defaultZoom={3}
-    defaultCenter={{ lat: 5.5841675, lng: -0.1657877 }}
-    onClick={props.onMapClick}
-    defaultOptions={{ styles: mapStyles }}
-  >
-    {props.markers.map(marker => (
-      <Marker
-        {...marker}
-        onRightClick={() => props.onMarkerRightClick(marker)}
-      />
-    ))}
-  </GoogleMap>
+      defaultZoom={2}
+      maxZoom={2}
+      minZoom={2}
+      defaultCenter={{ lat: 25.0391667, lng: 121.525 }}
+      defaultOptions={{ styles: mapStyles }}
+    >
+      <MarkerClusterer
+        averageCenter
+        enableRetinaIcons
+        gridSize={60}
+      >
+        {props.markers.map(marker => (
+          <Marker
+            position={{ lat: marker.position.lat, lng: marker.position.lng }}
+            key={marker.key}
+          />
+        ))}
+      </MarkerClusterer>
+    </GoogleMap>
 ));
 
-export default class AsyncGettingStartedExample extends Component {
 
-  static propTypes = {
-    toast: PropTypes.func.isRequired,
-  };
 
+export default class MarkerClustererExample extends Component {
   state = {
-    markers: [{
-      position: {
-        lat: 5.5841675,
-        lng: -0.1657877,
-      },
-      key: `National Film And Television Institute, Ghana`,
-      defaultAnimation: 2,
-    }],
+    markers: [],
   }
 
-  handleMapLoad = this.handleMapLoad.bind(this);
-  handleMapClick = this.handleMapClick.bind(this);
-
-  handleMapLoad(map) {
-    this._mapComponent = map;
-    if (map) {
-      console.log(map.getZoom());
-    }
-  }
-
-  /*
-   * This is called when you click on the map.
-   * Go and try click now.
-   */
-  handleMapClick(event) {
-    const nextMarkers = [
-      ...this.state.markers,
-      {
-        position: event.latLng,
-        defaultAnimation: 2,
-        key: Date.now(), // Add a key property for: http://fb.me/react-warning-keys
-      },
-    ];
-    this.setState({
-      markers: nextMarkers,
-    });
-
-    if (nextMarkers.length === 3) {
-      this.props.toast(
-        `Right click on the marker to remove it`,
-        `Also check the code!`
-      );
-    }
+  componentDidMount() {
+    let markers = []
+    _.forEach(dataSetSchools, (item) => {
+      _.forEach(item.region, (school) => {
+        markers.push({
+          position: school.position,
+          key: school.name
+        })
+      })
+    })
+    this.setState({ markers: markers });
   }
 
   render() {
@@ -101,17 +69,15 @@ export default class AsyncGettingStartedExample extends Component {
         googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyByxCYpX-iTbEAjYQqwzUN23zyQNXZVsko"
         loadingElement={
           <div style={{ height: `500px`, width: `500px` }}>
-
+            Cargando...
           </div>
         }
         containerElement={
-          <div style={{ height: `500px`, width: `500px` }} />
+          <div style={{ height: `500px`, width: `100%` }} />
         }
         mapElement={
-          <div style={{ height: `500px`, width: `500px` }} />
+          <div style={{ height: `100%`, width: `100%` }} />
         }
-        onMapLoad={this.handleMapLoad}
-        onMapClick={this.handleMapClick}
         markers={this.state.markers}
       />
     );
