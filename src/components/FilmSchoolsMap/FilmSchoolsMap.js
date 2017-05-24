@@ -23,10 +23,13 @@ const FilmSchoolsMap = _.flowRight(
 )(props => (
   <GoogleMap
       defaultZoom={2}
-      maxZoom={2}
-      minZoom={2}
-      defaultCenter={{ lat: 25.0391667, lng: 121.525 }}
-      defaultOptions={{ styles: mapStyles }}
+      defaultCenter={{ lat: -3.6395685, lng: 12.9160561 }}
+      defaultOptions={{
+        styles: mapStyles,
+        maxZoom: 14,
+        minZoom: 2,
+        mapTypeControl: false
+      }}
     >
       <MarkerClusterer
         averageCenter
@@ -42,8 +45,6 @@ const FilmSchoolsMap = _.flowRight(
       </MarkerClusterer>
     </GoogleMap>
 ));
-
-
 
 export default class MarkerClustererExample extends Component {
   state = {
@@ -68,7 +69,7 @@ export default class MarkerClustererExample extends Component {
       <FilmSchoolsMap
         googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyByxCYpX-iTbEAjYQqwzUN23zyQNXZVsko"
         loadingElement={
-          <div style={{ height: `500px`, width: `500px` }}>
+          <div style={{ height: `100%`, width: `100%` }}>
             Cargando...
           </div>
         }

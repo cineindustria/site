@@ -119,10 +119,10 @@
         "enrollment": "38,281",
         "type": "Research university/VH",
         "location": "Melbourne",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.unimelb.edu.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -37.7963689,
+          "lng": 144.9611738
         }
       },
       {
@@ -134,10 +134,10 @@
         "enrollment": "52,000",
         "type": "Research university/VH",
         "location": "Melbourne",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.deakin.edu.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -37.8443075,
+          "lng": 145.1100113
         }
       },
       {
@@ -149,10 +149,10 @@
         "enrollment": null,
         "type": "Master's university",
         "location": "Multiple",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.aftrs.edu.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -33.8939461,
+          "lng": 151.2280411
         }
       },
       {
@@ -164,10 +164,10 @@
         "enrollment": null,
         "type": "Baccalaureate college",
         "location": "Melbourne",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.rmit.edu.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -37.80736,
+          "lng": 144.9641521
         }
       },
       {
@@ -179,10 +179,10 @@
         "enrollment": null,
         "type": "Baccalaureate college",
         "location": "Gold Coast",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://bond.edu.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -28.0730934,
+          "lng": 153.4166377
         }
       },
       {
@@ -194,10 +194,10 @@
         "enrollment": null,
         "type": "Baccalaureate college",
         "location": "Fremantle",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.fti.asn.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 31.94721,
+          "lng": 115.8553413
         }
       },
       {
@@ -209,10 +209,10 @@
         "enrollment": null,
         "type": "Master's university",
         "location": "Western Australia",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.ecu.edu.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -31.7524069,
+          "lng": 115.7722821
         }
       },
       {
@@ -224,10 +224,10 @@
         "enrollment": null,
         "type": "Special-focus institution",
         "location": "Multiple",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://sae.edu.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -33.8853238,
+          "lng": 151.200237
         }
       },
       {
@@ -239,10 +239,10 @@
         "enrollment": "46,826",
         "type": "Research university/VH",
         "location": "Brisbane",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.uq.edu.au/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -27.4954306,
+          "lng": 153.0120301
         }
       },
       {
@@ -254,10 +254,10 @@
         "enrollment": "10,100",
         "type": "Baccalaureate college",
         "location": "Savar",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.juniv.edu/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 23.8814479,
+          "lng": 90.2675377
         }
       },
       {
@@ -269,10 +269,10 @@
         "enrollment": null,
         "type": "Film and Television School",
         "location": "Beijing",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://bfa-international.com/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 39.9718106,
+          "lng": 116.3549752
         }
       },
       {
@@ -284,10 +284,10 @@
         "enrollment": null,
         "type": "Film and Television School",
         "location": "Beijing",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "web.zhongxi.cn/en/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 39.935993,
+          "lng": 116.40448
         }
       },
       {
@@ -299,10 +299,10 @@
         "enrollment": null,
         "type": "Film and Television School",
         "location": "Beijing",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://en.cuc.edu.cn/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 39.912793,
+          "lng": 116.556581
         }
       },
       {
@@ -314,10 +314,10 @@
         "enrollment": null,
         "type": "Film and Television School",
         "location": "Hangzhou",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "eng.zjicm.edu.cn/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 30.468523,
+          "lng": -86.91415699999999
         }
       },
       {
