@@ -464,10 +464,10 @@
         "enrollment": null,
         "type": "Film and Television School",
         "location": "Kawasaki, Kanagawa",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.eiga.ac.jp/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 35.591568,
+          "lng": 139.512355
         }
       },
       {
@@ -479,10 +479,10 @@
         "enrollment": null,
         "type": "Research University",
         "location": "Tokyo",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.nihon-u.ac.jp/en/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 35.6910939,
+          "lng": 139.6673813
         }
       },
       {
@@ -494,10 +494,10 @@
         "enrollment": null,
         "type": "Public University",
         "location": "Auckland",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.auckland.ac.nz/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": -36.8523378,
+          "lng": 174.7691073
         }
       },
       {
@@ -509,10 +509,10 @@
         "enrollment": null,
         "type": "Public University",
         "location": "Manila",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.up.edu.ph/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 14.662733,
+          "lng": 121.0684972
         }
       },
       {
@@ -524,10 +524,10 @@
         "enrollment": null,
         "type": "Polytechnic",
         "location": "Singapore",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.nyp.edu.sg/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 1.3786539,
+          "lng": 103.8493234
         }
       },
       {
@@ -554,25 +554,25 @@
         "enrollment": null,
         "type": "Polytechnic",
         "location": "Singapore",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.ntu.edu.sg/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 1.3483099,
+          "lng": 103.6831347
         }
       },
       {
         "control": "Film School",
         "founded": "2011",
         "cilect": "Yes",
-        "name": "LASALLE_College_of_the_Arts",
+        "name": "LASALLE College of the Arts",
         "country": "Singapore",
         "enrollment": null,
         "type": "Public University",
         "location": "Singapore",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.lasalle.edu.sg/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 1.3029095,
+          "lng": 103.8515945
         }
       },
       {
@@ -584,10 +584,10 @@
         "enrollment": null,
         "type": "Technical School",
         "location": "Anseong",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://eng.dima.ac.kr/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 37.059548,
+          "lng": 127.356808
         }
       }
     ]
@@ -603,10 +603,10 @@
         "enrollment": "100",
         "type": "Film School",
         "location": "Prague",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.filmstudies.cz/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 50.0786586,
+          "lng": 14.415877
         }
       },
       {
@@ -618,10 +618,10 @@
         "enrollment": "limited",
         "type": "Film and Television School",
         "location": "Rome",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://academy.romafilm.it/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 41.852544,
+          "lng": 12.576037
         }
       },
       {
@@ -633,10 +633,10 @@
         "enrollment": null,
         "type": "Film & Television School",
         "location": "Paris",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.eicar-international.com/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 48.903585,
+          "lng": 2.3592549
         }
       },
       {
@@ -648,10 +648,10 @@
         "enrollment": null,
         "type": null,
         "location": "Moscow",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.vgik.info/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 55.835017,
+          "lng": 37.637379
         }
       },
       {
@@ -663,10 +663,10 @@
         "enrollment": null,
         "type": null,
         "location": "Rome",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.fondazionecsc.it/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 45.0817114,
+          "lng": 7.6580163
         }
       },
       {
@@ -678,10 +678,10 @@
         "enrollment": null,
         "type": "Film school",
         "location": "Florence",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.nyfa.edu/florence/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 43.7753928,
+          "lng": 11.2542461
         }
       },
       {
@@ -693,10 +693,10 @@
         "enrollment": null,
         "type": null,
         "location": "Prague",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.famu.cz/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 50.0816442,
+          "lng": 14.4132685
         }
       },
       {
@@ -708,10 +708,10 @@
         "enrollment": null,
         "type": null,
         "location": "Thessaloniki",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://auth.gr/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 40.6287112,
+          "lng": 22.9584285
         }
       },
       {
