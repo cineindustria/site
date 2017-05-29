@@ -539,10 +539,10 @@
         "enrollment": null,
         "type": "Public University",
         "location": "Singapore",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "www.ntu.edu.sg/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 1.3483099,
+          "lng": 103.6831347
         }
       },
       {
@@ -723,10 +723,10 @@
         "enrollment": null,
         "type": null,
         "location": "Paris",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.femis.fr/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 48.8902684,
+          "lng": 2.3426707
         }
       },
       {
@@ -738,10 +738,10 @@
         "enrollment": null,
         "type": null,
         "location": "Łódź",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.filmschool.lodz.pl/en/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 51.7573516,
+          "lng": 19.4730521
         }
       },
       {
@@ -753,25 +753,25 @@
         "enrollment": null,
         "type": null,
         "location": "Sofia",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://natfiz.bg/en/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 42.6923355,
+          "lng": 23.3260808
         }
       },
       {
         "control": "Public University",
         "founded": "1952",
         "cilect": "Yes",
-        "name": "Filmacademy Vienna",
+        "name": "Film academy Vienna",
         "country": "Austria",
         "enrollment": null,
         "type": null,
         "location": "Vienna",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.filmakademie.wien/de/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 48.1965844,
+          "lng": 16.3822912
         }
       },
       {
@@ -783,10 +783,10 @@
         "enrollment": null,
         "type": null,
         "location": "Beaconsfield",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://nfts.co.uk/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 51.6052288,
+          "lng": -0.6380304
         }
       },
       {
@@ -798,10 +798,10 @@
         "enrollment": "250",
         "type": "Film School",
         "location": "Bournemouth",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://aub.ac.uk/campus/bournemouth-film-school/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 50.741,
+          "lng": -1.897931
         }
       },
       {
@@ -813,10 +813,10 @@
         "enrollment": null,
         "type": null,
         "location": "Lisbon",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.estc.ipl.pt/en/home/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 38.763327,
+          "lng": -9.234995
         }
       },
       {
@@ -828,10 +828,10 @@
         "enrollment": null,
         "type": null,
         "location": "Edinburgh",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.screenacademyscotland.ac.uk/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 55.9340806,
+          "lng": -3.2117957
         }
       },
       {
@@ -843,10 +843,10 @@
         "enrollment": null,
         "type": null,
         "location": "Písek",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.filmovka.cz/cs/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 49.3004518,
+          "lng": 14.1439191
         }
       }
     ]
@@ -862,10 +862,10 @@
         "enrollment": null,
         "type": "Research university/H",
         "location": "Regina, Saskatchewan",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.uregina.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 50.4170134,
+          "lng": -104.58849
         }
       },
       {
@@ -877,10 +877,10 @@
         "enrollment": "34000",
         "type": "Research university/H",
         "location": "Burnaby",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.sfu.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 49.2780937,
+          "lng": -122.9198833
         }
       },
       {
@@ -892,10 +892,10 @@
         "enrollment": "23,883",
         "type": "Research university/VH",
         "location": "Kingston, Ontario",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.queensu.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 44.2252795,
+          "lng": -76.4951412
         }
       },
       {
@@ -907,10 +907,10 @@
         "enrollment": null,
         "type": "Diploma",
         "location": "Toronto",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.torontofilmschool.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 43.6568652,
+          "lng": -79.3805207
         }
       },
       {
@@ -922,10 +922,10 @@
         "enrollment": null,
         "type": "Doctoral/research",
         "location": "Toronto",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.ryerson.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 43.6576585,
+          "lng": -79.3788017
         }
       },
       {
@@ -937,10 +937,10 @@
         "enrollment": "6,072",
         "type": "Master's university/S",
         "location": "Toronto",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.ocadu.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 43.653282,
+          "lng": -79.3937845
         }
       },
       {
@@ -952,10 +952,10 @@
         "enrollment": null,
         "type": "Diploma",
         "location": "Vancouver",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.vanarts.com/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 49.2826982,
+          "lng": -123.1153577
         }
       },
       {
@@ -967,10 +967,10 @@
         "enrollment": null,
         "type": null,
         "location": "Vancouver",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://vfs.edu/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 49.2821089,
+          "lng": -123.1094589
         }
       },
       {
@@ -982,10 +982,10 @@
         "enrollment": "8,350",
         "type": null,
         "location": "Vancouver",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://langara.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 49.2245678,
+          "lng": -123.108437
         }
       },
       {
@@ -997,10 +997,10 @@
         "enrollment": "57,075",
         "type": "Research university/VH",
         "location": "Kelowna",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.ubc.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 49.2606052,
+          "lng": -123.2459939
         }
       },
       {
@@ -1012,10 +1012,10 @@
         "enrollment": "1,828",
         "type": "Art & Design",
         "location": "Vancouver",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://www.ecuad.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 49.2704372,
+          "lng": -123.1329479
         }
       },
       {
@@ -1027,10 +1027,10 @@
         "enrollment": null,
         "type": "Doctoral/research",
         "location": "Montreal",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.concordia.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 45.494699,
+          "lng": -73.577726
         }
       },
       {
@@ -1042,10 +1042,10 @@
         "enrollment": null,
         "type": "Certificate",
         "location": "Galiano Island",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.giftsfilms.com/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 48.937773,
+          "lng": -123.488344
         }
       },
       {
@@ -1057,10 +1057,10 @@
         "enrollment": null,
         "type": null,
         "location": "Oakville, Ontario",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "https://www.sheridancollege.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 43.469015,
+          "lng": -79.698624
         }
       },
       {
@@ -1072,10 +1072,10 @@
         "enrollment": "53,900",
         "type": "Research university/H",
         "location": "Toronto",
-        "website": "XXXXXXXXXXXXXX",
+        "website": "http://cma.ampd.yorku.ca/",
         "position": {
-          "lat": 5.5841675,
-          "lng": -0.163599
+          "lat": 43.7733722,
+          "lng": -79.5040622
         }
       },
       {
