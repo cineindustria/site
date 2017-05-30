@@ -65,7 +65,7 @@ export default class MarkerClustererExample extends Component {
     })
     this.setState({
       markers: markers,
-      windowHeight: (ReactDOM.findDOMNode(this.refs[HeaderFullScreen]).clientHeight)
+      windowHeight: window.screen.availHeight - (81 + 62 + 50)
     });
   }
 
