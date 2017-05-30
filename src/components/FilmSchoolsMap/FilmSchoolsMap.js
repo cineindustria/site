@@ -28,7 +28,8 @@ const FilmSchoolsMap = _.flowRight(
         styles: mapStyles,
         maxZoom: 14,
         minZoom: 2,
-        mapTypeControl: false
+        mapTypeControl: false,
+        scrollwheel: false
       }}
     >
       <MarkerClusterer
