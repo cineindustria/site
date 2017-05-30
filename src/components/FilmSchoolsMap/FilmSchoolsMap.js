@@ -49,6 +49,7 @@ const FilmSchoolsMap = _.flowRight(
 export default class MarkerClustererExample extends Component {
   state = {
     markers: [],
+    windowHeight: null,
   }
 
   componentDidMount() {
@@ -61,7 +62,10 @@ export default class MarkerClustererExample extends Component {
         })
       })
     })
-    this.setState({ markers: markers });
+    this.setState({
+      markers: markers,
+      windowHeight: (ReactDOM.findDOMNode(this.refs[HeaderFullScreen]).clientHeight)
+    });
   }
 
   render() {
@@ -74,7 +78,7 @@ export default class MarkerClustererExample extends Component {
           </div>
         }
         containerElement={
-          <div style={{ height: `500px`, width: `100%` }} />
+          <div style={{ height: `${this.state.windowHeight}px`, width: `100%` }} />
         }
         mapElement={
           <div style={{ height: `100%`, width: `100%` }} />

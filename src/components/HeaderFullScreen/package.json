@@ -1,0 +1,6 @@
+{
+  "name": "HeaderFullScreen",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HeaderFullScreen.js"
+}
