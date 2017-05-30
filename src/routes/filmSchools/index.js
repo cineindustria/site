@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../components/Layout';
+import LayoutFullScreen from '../../components/LayoutFullScreen';
 import Page from '../../components/Page';
 import FilmSchoolsMap from '../../components/FilmSchoolsMap';
 
@@ -13,8 +13,7 @@ export default {
     return {
       title: 'Film Schools around the world',
       chunk: 'about',
-      //component: <Layout><Page {...data} /></Layout>,
-      component: <Layout><FilmSchoolsMap /></Layout>,
+      component: <LayoutFullScreen><FilmSchoolsMap /></LayoutFullScreen>,
     };
   },
 
